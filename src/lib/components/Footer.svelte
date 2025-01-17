@@ -1,7 +1,8 @@
 <footer class="footer">
     <p>© 2024 ksi123456ab. All rights reserved.</p>
     <p>Email: ksi123456ab@gmail.com</p>
-</footer>
+    <p>모든 아이콘은 <a target="_blank" href="https://www.svgrepo.com/svg/532363/user-alt-1">Dazzle ui</a> 를 사용하였습니다.</p>
+</footer> 
 
 <style>
     .footer {

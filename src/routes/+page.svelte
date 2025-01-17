@@ -12,7 +12,7 @@
     <p class="subtitle">마인크래프트 런처 제작을 위한 다양한 프로젝트를 진행하고 있습니다</p>
   </div>
 
-  <Project icon="{alIcon}" title="AlphabetLauncher" href="launcher" target="">
+  <Project icon="{alIcon}" title="Alphabet Launcher" href="launcher" target="">
     <p>마인크래프트 커스텀 런처를 주문제작합니다.</p>
     <p><a href="launcher">제작문의</a></p>
     <p><a target="_blank" href="https://isk162534.github.io/AlphaLauncherDocs/">기술지원</a></p>

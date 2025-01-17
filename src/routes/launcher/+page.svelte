@@ -41,6 +41,15 @@
 
 <svelte:window {onscroll} />
 
+<svelte:head>
+    <title>마인크래프트 커스텀 런처 주문제작</title>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <meta name="description" content="마인크래프트 커스텀 런처, 설치기, 서버 접속기를 만들어 드립니다.">
+    <meta name="keywords" content="마인크래프트,커스텀,런처,주문제작">
+    <meta name="robots" content="index,follow">
+</svelte:head>
+
 <nav id="navbar" class="nav">
   <div class="nav-shadow" style="display: none;"></div>
 
@@ -82,7 +91,7 @@
     height: 64px;
     padding-left: 32px;
     padding-right: 32px;
-    background-color: #f9fafb;
+    background-color: white;
     z-index: 1000;
     transition: box-shadow 0.3s ease-in-out;
   }

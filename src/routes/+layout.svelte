@@ -6,7 +6,7 @@
 
 <style>
     :global {
-        * {
+        body.fontLoaded {
             font-family:
                 "Pretendard Variable",
                 Pretendard,
@@ -26,7 +26,7 @@
         }
 
         body {
-            background: #f9fafb;
+            background: white;
             margin: 0px;
             font-size: 18px;
         }

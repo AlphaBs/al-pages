@@ -68,7 +68,7 @@
 
 .section-1-content {
   margin-top: 64px;
-  margin-bottom: 96px;
+  margin-bottom: 60px;
   width: 90%;
   max-width: 900px;
 }
