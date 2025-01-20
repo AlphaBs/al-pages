@@ -43,7 +43,7 @@
     <title>주문제작 - 마인크래프트 커스텀 런처</title>
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-    <meta name="description" content="마인크래프트 런처, 설치기, 서버 접속기를 만들어 드립니다.">
+    <meta name="description" content="모드 설치부터 서버 접속까지, 마인크래프트 런처를 만들어 드립니다.">
     <meta name="keywords" content="마인크래프트,커스텀,런처,접속기,주문제작">
     <meta name="robots" content="index,follow">
 </svelte:head>
