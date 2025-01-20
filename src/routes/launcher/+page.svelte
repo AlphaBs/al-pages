@@ -21,10 +21,8 @@
   }
 
   onMount(() => {
-    console.log("loaded");
     const links = document.querySelectorAll(".smooth-section");
     links.forEach((link) => {
-      console.log(link);
       link.addEventListener("click", (event) => {
         event.preventDefault(); // Prevent default anchor behavior
         const targetId = link.getAttribute("href")?.substring(1); // Get the target id

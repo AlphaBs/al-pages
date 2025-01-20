@@ -1,5 +1,4 @@
 <script>
-  import launcherImageUrl from '$lib/assets/launcher.png'
   import launcherVideoUrl from '$lib/assets/launcher.webm'
 </script>
 
@@ -21,7 +20,6 @@
     <div class="section-1-content-video-holder">
       <video muted autoplay loop>
         <source src="{launcherVideoUrl}" type="video/mp4" />
-        <img src="{launcherImageUrl}" alt="launcher" />
       </video>
     </div>
   </div>

@@ -46,11 +46,13 @@
     <div class="section-plan-item shadow">
       <p class="section-plan-title">{plan.title}</p>
       <p><span class="section-plan-price">{plan.price}</span></p>
+      <!--
       <img
         class="section-plan-image"
         src={plan.image}
         alt="screenshot"
       />
+    -->
       <ul>
         {#each plan.features as feature}
         <li>{feature}</li>
