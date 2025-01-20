@@ -41,7 +41,7 @@
 
 .section-1-title > p {
   text-align: center;
-  font-size: 60px;
+  font-size: 3.5rem;
   font-weight: bold;
   margin: 0;
 }
@@ -52,7 +52,7 @@
 
 .section-1-subtitle>p {
   margin: 0px;
-  font-size: 20px;
+  font-size: 1.2rem;
   text-align: center;
   color: #6B7280;
 }

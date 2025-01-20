@@ -1,6 +1,6 @@
 <script lang="ts">
     import discordIconUrl from "$lib/assets/icon_discord_blue.svg";
-    import emailIconUrl from "$lib/assets/icon-email.svg";
+    import emailIconUrl from "$lib/assets/mail.svg";
     import CopyText from "$lib/components/CopyText.svelte";
 </script>
     
@@ -44,14 +44,17 @@
     }
 
     .section {
+        background-color: #f9fafb;
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
     .section-title {
-        margin-top: 64px;
-        font-size: 30px;
+        font-size: 2rem;
+        margin-bottom: 1rem;
         font-weight: bold;
         line-height: 36px;
         text-align: center;
@@ -60,8 +63,7 @@
     }
 
     .section-subtitle {
-        margin-top: 20px;
-        font-size: 20px;
+        font-size: 1.125rem;
         text-align: center;
         color: #6B7280;
         line-height: 140%;
@@ -71,7 +73,7 @@
         width: calc(100% - 64px);
         display: flex;
         flex-direction: column;
-        margin: 64px 32px 72px 32px;
+        margin-top: 5rem;
         gap: 36px;
         align-items: center;
     }

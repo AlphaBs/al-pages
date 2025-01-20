@@ -6,6 +6,14 @@
   import Footer from "$lib/components/Footer.svelte";
 </script>
 
+<svelte:head>
+    <title>AlphabetLauncher</title>
+		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+
+    <meta name="description" content="마인크래프트 프로젝트">
+    <meta name="robots" content="index,follow">
+</svelte:head>
+
 <div class="main">
   <div class="title">
     <h1>Minecraft Projects</h1>

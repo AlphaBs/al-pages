@@ -39,7 +39,8 @@
 </script>
 
 <section id="section-plan" class="section">
-  <p class="section-title">가격</p>
+  <p class="section-title">제작 비용</p>
+  <p class="section-subtitle">추가 기능에 따라 가격이 달라질 수 있습니다</p>
   <div class="section-content">
     {#each plans as plan}
     <div class="section-plan-item shadow">
@@ -68,22 +69,32 @@
   .section {
     display: flex;
     flex-direction: column;
+    background-color: #514281;
+    padding-top: 96px;
+    padding-bottom: 96px;
   }
 
   .section-title {
-    margin-top: 48px;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: bold;
     line-height: 36px;
     text-align: center;
     letter-spacing: 0px;
-    color: black;
+    color: white;
+    margin-bottom: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.125rem;
+    text-align: center;
+    color: rgb(220, 220, 220);
+    line-height: 160%;
   }
 
   .section-content {
     display: flex;
     flex-direction: row;
-    margin: 64px 32px 32px 32px;
+    margin: 5rem 32px 32px 32px;
     gap: 26px;
     max-width: 1200px;
     align-self: center;
@@ -96,12 +107,13 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 8px;
     padding: 36px;
+    border-radius: 8px;
+    border: 0px black solid;
   }
 
   .section-plan-title {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: bold;
     line-height: 32px;
     letter-spacing: 0px;
@@ -110,7 +122,7 @@
   }
 
   .section-plan-price {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: bold;
     line-height: 40px;
     letter-spacing: 0px;

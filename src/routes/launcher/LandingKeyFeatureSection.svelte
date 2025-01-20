@@ -11,23 +11,23 @@
       image: updateIconUrl,
       alt: "아이콘",
       title: "모드 설치",
-      content: `<b>모든 게임 파일을 자동으로 설치합니다</b><br>
-                포지/패브릭, 모드, 리소스팩, 옵션, 등등<br>
+      subtitle: "모든 게임 파일을 자동으로 설치합니다",
+      content: `포지/패브릭, 모드, 리소스팩, 옵션, 등등<br>
                 설치할 파일은 실시간 교체 가능합니다.`,
     },
     {
       image: thunderIconUrl,
       alt: "아이콘",
       title: "서버 접속",
-      content: `<b>게임 실행 즉시 서버로 접속합니다</b><br>
-                더 이상 서버 주소를 유저들에게 알려줄 필요가 없습니다.`,
+      subtitle: "게임 실행 즉시 서버로 접속합니다",
+      content: `더 이상 서버 주소를 유저들에게 알려줄 필요가 없습니다.`,
     },
     {
       image: settingIconUrl,
       alt: "아이콘",
       title: "게임 설정",
-      content: `<b>모든 설정을 미리 원하는 대로 수정할 수 있습니다</b><br>
-                리소스팩, 쉐이더팩, 언어, 각종 그래픽 설정 등등...`,
+      subtitle: "모든 설정을 미리 원하는 대로 수정할 수 있습니다",
+      content: `리소스팩, 쉐이더팩, 언어, 각종 그래픽 설정 등등...`,
     },
     {
       image: paletteIconUrl,
@@ -58,7 +58,10 @@
       <div class="section-item">
         <img class="section-item-image" src={feature.image} alt={feature.alt}>
         <p class="section-item-title">{feature.title}</p>
-        <p>
+        {#if feature.subtitle}
+          <p class="section-item-subtitle">{feature.subtitle}</p>
+        {/if}
+        <p class="section-item-content">
           {@html feature.content}
         </p>
       </div>
@@ -101,6 +104,15 @@
     font-weight: bold;
     letter-spacing: 0px;
     margin-bottom: 1rem;
+  }
+
+  .section-item-subtitle {
+    color: black;
+    font-weight: bold;
+  }
+
+  .section-item-content {
+    color: black;
   }
 
   /* Medium screens: 2x2 grid */

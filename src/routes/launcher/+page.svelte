@@ -42,11 +42,11 @@
 <svelte:window {onscroll} />
 
 <svelte:head>
-    <title>마인크래프트 커스텀 런처 주문제작</title>
+    <title>주문제작 - 마인크래프트 커스텀 런처</title>
 		<link rel="icon" type="image/x-icon" href="/favicon.ico">
 
-    <meta name="description" content="마인크래프트 커스텀 런처, 설치기, 서버 접속기를 만들어 드립니다.">
-    <meta name="keywords" content="마인크래프트,커스텀,런처,주문제작">
+    <meta name="description" content="마인크래프트 런처, 설치기, 서버 접속기를 만들어 드립니다.">
+    <meta name="keywords" content="마인크래프트,커스텀,런처,접속기,주문제작">
     <meta name="robots" content="index,follow">
 </svelte:head>
 
@@ -114,7 +114,7 @@
 
   .nav-logo > a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2rem;
     font-weight: bold;
     margin-left: 12px;
     color: black;
@@ -130,14 +130,14 @@
 
   .nav-links > a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 1rem;
     color: #4b5563;
   }
 
   .nav-links > .button {
     width: 94px;
     height: 36px;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: normal;
     background-color: black;
     color: white;

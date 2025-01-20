@@ -36,7 +36,7 @@
     ];
 </script>
 
-<section id="section-usecase" class="section-3">
+<section id="section-usecase" class="section">
   <p class="section-3-title">포트폴리오</p>
   <div class="section-3-subtitle">
     <p>5년간 120건 이상의 런처 개발</p>
@@ -56,39 +56,39 @@
 </section>
 
 <style>
-  .section-3 {
+  .section {
     display: flex;
     flex-direction: column;
     color: white;
     align-items: center;
     background-color: #111827;
+    padding-top: 128px;
     padding-bottom: 128px;
   }
 
   .section-3-title {
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    margin-top: 96px;
+    margin-bottom: 1.5rem;
   }
 
   .section-3-subtitle {
-    margin-top: 20px;
-    font-size: 20px;
+    font-size: 1.125rem;
     text-align: center;
     color: #9ca3af;
     line-height: 160%;
   }
 
   a {
-    font-size: 20px;
+    font-size: 1.2rem;
     text-align: center;
     color: #9ca3af;
     line-height: 160%;
   }
 
   .section-content {
-    margin-top: 76px;
+    margin-top: 5rem;
     margin-bottom: 64px;
     width: 90%;
     max-width: 1400px;
