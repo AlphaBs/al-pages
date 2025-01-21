@@ -7,10 +7,9 @@
 </script>
 
 <svelte:head>
-    <title>AlphabetLauncher</title>
-		<link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>마인크래프트 커스텀 런처 프로젝트</title>
 
-    <meta name="description" content="마인크래프트 프로젝트">
+    <meta name="description" content="마인크래프트 커스텀 런처 프로젝트">
     <meta name="robots" content="index,follow">
 </svelte:head>
 
